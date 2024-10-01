@@ -7,6 +7,6 @@ export class AppService {
   }
 
   getAbout() {
-    return "";
+    return { message: "This a message from service" };
   }
 }
